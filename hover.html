@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hovering concept</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<style> 
+    body{
+        height: 0px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        margin-top: 20rem;
+        background:linear-gradient(to right, yellow,orange);
+    }
+    button.mybutton{
+     width: 10rem;
+     height: 5rem;
+     padding-right: 5px;
+     background-color: darkorange;
+     border-radius: 10px 60px 30px;
+     box-shadow: 2px 3px 5px black;
+       position:relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+cursor:pointer;
+transition-duration: 3s;
+transition-delay: 1s;
+}
+    button.mybutton:hover{
+         width: 200px;
+         background-color: darkorange;
+    }
+</style>
+
+<body>
+    <button class="mybutton">Hover over me!</button>
+</body>
+</html>
